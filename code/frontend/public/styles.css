@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 90%;
+  max-width: 600px;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+#word-display {
+  font-size: 2rem;
+  letter-spacing: 0.5rem;
+  margin: 20px 0;
+}
+
+#hangman-art {
+  font-family: monospace;
+  white-space: pre;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin: 20px auto;
+}
+
+#guesses {
+  margin: 20px 0;
+}
+
+#message {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 20px 0;
+  min-height: 1.5rem;
+}
+
+#input-area {
+  margin-top: 20px;
+}
+
+input {
+  padding: 8px;
+  font-size: 1rem;
+  width: 50px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+button {
+  padding: 8px 16px;
+  font-size: 1rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#new-game-button {
+  background-color: #2196f3;
+}
+
+#new-game-button:hover {
+  background-color: #0b7dda;
+}
+
+.won {
+  color: #4caf50;
+}
+
+.lost {
+  color: #f44336;
+}
