@@ -22,14 +22,14 @@ A **VPC** (`10.0.0.0/16`) consisting of:
  
 ##  **Deployment Steps**
  
-### 1.**Initialize Terraform & Workspace**
+### 1. **Initialize Terraform & Workspace**
  
 ```bash
 terraform init
 terraform workspace new dev
 ````
  
-### 2.**Plan & Apply**
+### 2. **Plan & Apply**
  
 ```bash
 terraform plan
@@ -40,10 +40,10 @@ terraform apply
 After deployment: 
 1. **Frontend:**
 
-   Access the public ALB DNS in your browser:
+   Access the public ALB DNS in your browser.
  
 2. **Backend:**
 
-   The proxy forwards traffic to the **Internal ALB** (`port 5000`), serving the Node.js app.
+   The proxy forwards traffic to the **Internal ALB**, serving the Node.js app.
 
  
